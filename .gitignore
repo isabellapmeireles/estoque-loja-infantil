@@ -1,0 +1,32 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+/auth.json
+
+# Bancos locais e logs
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+
+# Arquivos gerados e uploads
+/storage/
+/public/uploads/
+/.phpunit.cache/
+/.phpunit.result.cache
+
+# Editor e sistema operacional
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

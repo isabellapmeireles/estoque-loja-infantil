@@ -1,0 +1,13 @@
+{
+    "name": "isabellapmeireles/estoque-loja-infantil",
+    "description": "Cadastro de produtos e controle de estoque de uma loja infantil.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3"
+    },
+    "scripts": {
+        "start": "@php -S 127.0.0.1:8000 -t public",
+        "lint": "@php -l public/index.php"
+    }
+}
