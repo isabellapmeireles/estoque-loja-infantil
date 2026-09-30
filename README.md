@@ -10,10 +10,6 @@ Projeto em PHP para cadastro de produtos e controle de estoque de uma loja infan
 
 Mais pra frente vem mais coisas, por enquanto, vai ser só isso mesmo (eu acho).
 
-## Observações
-
-Eu mandei a IA fazer o basico pq depois eu vejo como que configura. Dai tirei uns passos do escopo pra focar só no basico mesmo.
-
 ## Requisitos
 
 - PHP 8.3 ou superior.
