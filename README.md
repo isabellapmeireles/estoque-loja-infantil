@@ -2,14 +2,17 @@
 
 Projeto em PHP para cadastro de produtos e controle de estoque de uma loja infantil.
 
-## Escopo previsto
+## Escopo inicial
 
-- Cadastro de produtos com nome, SKU, categoria e preço.
-- Variações por tamanho e cor.
-- Registro de entradas e saídas de estoque.
-- Consulta de disponibilidade e alerta de estoque baixo.
+- Cadastro de produtos com nome, tipo de produto, cor, preço e quantidade.
+- Exibição na tela dos produtos escritos.
+- Sem banco de dados por agora.
 
-Esta é a estrutura inicial. As funcionalidades e a persistência em banco de dados ainda serão implementadas.
+Mais pra frente vem mais coisas, por enquanto, vai ser só isso mesmo (eu acho).
+
+## Observações
+
+Eu mandei a IA fazer o basico pq depois eu vejo como que configura. Dai tirei uns passos do escopo pra focar só no basico mesmo.
 
 ## Requisitos
 
