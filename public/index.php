@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
 <?php
 
-echo "Começa aqui\n";
+  //jeito 1 - variável pre definida
+  $codigo_sku = 1234;
+  $tipo_roupa = 'vestido';
+  $marca = 'Farm';
+  $qntd_disp = 13;
 
-echo "Tela de Cadastro de Produtos.";
-  ?>
-</body>
-</html>
+  function exibe_primeiro (){
+    echo "O codigo SKU atual: ". $GLOBALS['codigo_sku'];
+    echo "\nO codigo tipo de roupa: " . $GLOBALS['tipo_roupa'];
+  }
+
+  exibe_primeiro();
+
+
+
+  //jeito 2 - array associativo 
+
+
+
+?>
