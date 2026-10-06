@@ -1,6 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
 <?php
 
+echo "Começa aqui\n";
 
-echo "Estoque de loja infantil\n";
-echo "Base PHP pronta. O cadastro de produtos será implementado nas próximas etapas.\n";
-
+echo "Tela de Cadastro de Produtos.";
+  ?>
+</body>
+</html>
