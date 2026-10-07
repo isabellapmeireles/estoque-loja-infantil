@@ -1,22 +1,17 @@
-<?php
+<!DOCTYPE html>
+	<html lang="en">
 
-  //jeito 1 - variável pre definida
-  $codigo_sku = 1234;
-  $tipo_roupa = 'vestido';
-  $marca = 'Farm';
-  $qntd_disp = 13;
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
 
-  function exibe_primeiro (){
-    echo "O codigo SKU atual: ". $GLOBALS['codigo_sku'];
-    echo "\nO codigo tipo de roupa: " . $GLOBALS['tipo_roupa'];
-  }
-
-  exibe_primeiro();
-
-
-
-  //jeito 2 - array associativo 
-
-
-
-?>
+	<body>
+		<form method="get">
+			Código SKU <input type="text" name="SKU"><br>
+			Marca <input type="text" name="marca"><br><br>
+			<button type="submit">mandar</button>
+		</form>
+	</body>
+</html>
